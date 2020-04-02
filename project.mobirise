@@ -1,0 +1,564 @@
+{
+  "settings": {
+    "name": "Site-04-02_1648",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      },
+      "additionalSetColors": [
+        "#ec992e",
+        "#ed2f2f",
+        "#484341",
+        "#ffffff",
+        "#e7e3e3"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.10",
+    "siteFonts": [],
+    "uniqCompNum": 20,
+    "versionPublish": "4.10.10",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.6em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#484341"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#3d3937"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#484341",
+            "fontSize": "1.6",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">О компании</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Каталог&nbsp;</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Халва</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Халва подсолнечная</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Халва кунжутная</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Рахат-лукум</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Нуга</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Карамель</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Парварда</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Леденцовая</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Жевательная</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span>Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">New Item</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">сделать заказ</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Контакты</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-88x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-warning\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/-1150x530.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "<i>Торговый дом</i><br><i> \"Родник сладостей\"</i>",
+                "contentAlign": "center",
+                "overlay": true,
+                "text": "Рахат-лукум в ассортименте с различными начинками, ягодного и фруктового вкуса, с орехами",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobirisru\">Для MAC</a>",
+                "overlayOpacity": "0.5"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Торговый дом\n<div>\"Родник сладостей\"</div>",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Нежная нуга с различныи орехами",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobiris.ru\">Для MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Торговый дом\r<div>\"Родник сладостей\"</div>",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Вафли по оригинальным рецептам",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobiris.ru\">Для MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-1000x666.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Торговый дом\r<div>\"Родник сладостей\"</div>",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Оригинальный десерт - карамель парварда со вкусами клубники, яблока, апельсина, лимона, кофе",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobirisru\">Для MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pimaniye-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Торговый дом\r<div>\"Родник сладостей\"</div>",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "Шедевр восточных поваров - пишмание",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobiris.ru\">Для MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1440.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Торговый дом\r<div>\"Родник сладостей\"</div>",
+                "contentAlign": "center",
+                "overlay": "true",
+                "text": "крекер в ассортименте",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"http://mobiris.ru\">Для WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"http://mobiris.ru\">Для MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-8",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            },
+            "I": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "46px"
+            },
+            "P": {
+              "font-size": "30px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "text-align": "center",
+              "color": "#e7e3e3"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "1 столбец",
+          "text": "Кондитерский дом «Родник сладостей» был создан на территории города Пенза, который по праву может называться КОНДИТЕРСКИМ СЕРДЦЕМ РОССИИ. \n<br>Пенза имеет великолепное логистическое местоположение, благодаря которому путь от нас до покупателя в любом уголке наиболее оживленной части России, а также до стран ЕАЭС, очень удобен и легок. Кроме того, Пенза славится своими исторически сложившимися давними традициями потребления и производства сладостей, по праву жителей нашего региона можно назвать знатоками лакомств!\n<br>В течение нескольких лет мы изучили потребности покупателей в населенных пунктах европейской части России, Урала, Восточной и Западной Сибири, и достаточно точно можем сказать, что любят продавать наши клиенты.\n<br>Мы предлагаем возможность для наших покупателей заказать весь ассортимент желаемой продукции в одном месте, и доставку в любой населенный пункт 50-ти регионов страны, даже если объем груза не превышает 1 коробки. При этом, благодаря прямым поставкам от производителей, мы имеем возможность обеспечить цену, интересную не только розничным продавцам, но и крупным игрокам оптового рынка.\n<br>Зная предпочтения наших клиентов, мы считаем необходимым дать возможность нашим покупателям ознакомиться с продукцией не только местных производителей поволжского региона, но и с лучшими образцами сладостей из разных уголков России и стран ЕАЭС.\n<br>Хорошо развитая инфраструктура и удобство подъездных путей позволяет нашим поставщикам без задержки выгрузить любой объем товара. Наши складские помещения расположены на первой линии, подъездные пути к оптовым складам заасфальтированы, и расположены в непосредственной близости от автодороги - трассы всероссийского назначения М5, в непосредственной близости имеется ЖД ветка, что позволяет нам получать грузы больших объемов из дальних уголков страны. \n<br>Все эти факторы характеризуют район расположения Кондитерского Дома «Родник Сладостей» высокой деловой активностью и являются несомненным фактором, повышающим коммерческую привлекательность. \n<br>Стабильные темпы роста компании и высокое качество реализуемой нами продукции обеспечили нам доверие нескольких десятков крупных оптово-розничных компаний. \n<br>На сегодняшний день наши деловые партнеры - это оптовые и розничные торговые компании Восточной и Западной Сибири, Центральной России, регионы крайнего севера, Дальнего Востока. \n<br>Компания включает в себя оптово-дистрибьюторскую составляющую и розничную доставку, в том числе имеет возможность догруза небольших партий своим клиентам, фактически механизм предоставления логистических услуг партнерам отработан на всех уровнях.\n<br>\tКондитерский Дом «Родник Сладостей» - команда молодых, опытных, активных профессионалов, открытых для новых идей и партнерства. Мы постоянно держим руку на пульсе современных потребительских предпочтений и предлагаем разнообразные новинки, которые неизменно приходятся по вкусу даже самым требовательным клиентам.\n<br>\tМы поддерживаем и развиваем производителей, которые бережно сохраняют лучшие традиции российских кондитеров, заботятся о потребителе. Мы предлагаем продукты отличного качества по доступной цене! &nbsp;<br>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-h",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-size": "18px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/-1000x562.jpg",
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Стильный параллаксный ряд",
+          "text": "Добавить свой собственный фон параллакса",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "parallax1",
+          "_anchor": "parallax1-j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": true,
+            "showMedia": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Bakery egg foods around the world",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"text-primary rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"text-primary rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"text-primary rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/5.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title5": "Bakery egg foods around the world",
+          "info5": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text5": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/6.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title6": "Bakery egg foods around the world",
+          "info6": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text6": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box10",
+          "_anchor": "msg-box10-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showInfo": true,
+            "showMedia": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Bakery egg foods around the world",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/5.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title5": "Bakery egg foods around the world",
+          "info5": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text5": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/6.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title6": "Bakery egg foods around the world",
+          "info6": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text6": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box19",
+          "_anchor": "msg-box19-1"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/10.jpg",
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Стильный параллаксный ряд",
+          "text": "Добавить свой собственный фон параллакса",
+          "alias": "unicore/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "parallax1",
+          "_anchor": "parallax1-i"
+        }
+      ]
+    }
+  }
+}
